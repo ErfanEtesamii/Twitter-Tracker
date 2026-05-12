@@ -152,7 +152,7 @@ I store sent tweets in a dedicated tab with these columns:
 - `project`
 - `regex`
 
-I use batch append where possible so the Sheets API stays efficient and the bot does not waste calls on single-row writes. [web:121][web:140][web:145]
+I use batch append where possible so the Sheets API stays efficient and the bot does not waste calls on single-row writes.
 
 ---
 
@@ -196,7 +196,7 @@ I manage the bot from Telegram using admin-only commands.
 - `/export` — Export project data.
 - `/broadcast <message>` — Send a message to admin chats.
 
-I use inline keyboards for faster navigation, and callback queries are handled separately so button presses respond correctly. [web:130][web:123][web:126]
+I use inline keyboards for faster navigation, and callback queries are handled separately so button presses respond correctly.
 
 ---
 
@@ -257,7 +257,7 @@ For a public repository, I would also add:
 - `SECURITY.md`
 - `LICENSE`
 
-GitHub also recommends using secret scanning, Dependabot alerts, and other repository security features when a repo is public. [web:149]
+GitHub also recommends using secret scanning, Dependabot alerts, and other repository security features when a repo is public.
 
 ---
 
@@ -307,18 +307,3 @@ Possible upgrades I would add next:
 - File upload progress and validation feedback.
 - Better support for multiple source sheets.
 
----
-
-## Contributing
-
-If I expand this into a public project, I would keep contributions simple:
-
-1. Fork the repository.
-2. Create a feature branch.
-3. Make a focused change.
-4. Test it locally.
-5. Open a pull request with a clear summary.
-
-I prefer atomic commits because they make the history easier to understand and roll back. [web:147][web:99][web:108]
-
----
