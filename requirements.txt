@@ -1,0 +1,7 @@
+python-telegram-bot==22.3
+gspread
+google-auth
+selenium
+requests
+python-dotenv
+pydantic
